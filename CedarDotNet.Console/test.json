@@ -1,0 +1,28 @@
+{
+  "principal": "User::\"alice\"",
+  "action": "Photo::\"view\"",
+  "resource": "Photo::\"door\"",
+  "context": {},
+  "slice": {
+    "policies": {},
+    "entities": [],
+    "templates": {
+      "ID0": "permit(principal == ?principal, action, resource);"
+    },
+    "template_instantiations": [
+      {
+        "template_id": "ID0",
+        "result_policy_id": "ID0_User_alice",
+        "instantiations": [
+          {
+            "slot": "?principal",
+            "value": {
+              "ty": "User",
+              "eid": "alice"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
