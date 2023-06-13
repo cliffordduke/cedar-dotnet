@@ -4,7 +4,8 @@
   "resource": "Photo::\"door\"",
   "context": {},
   "slice": {
-    "policies": {},
+    "policies": {
+    },
     "entities": [],
     "templates": {
       "ID0": "permit(principal == ?principal, action, resource);"

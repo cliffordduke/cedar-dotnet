@@ -16,4 +16,8 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CedarDotNet\CedarDotNet.csproj" />
+  </ItemGroup>
+
 </Project>
